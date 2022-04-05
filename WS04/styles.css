@@ -1,0 +1,33 @@
+body {
+  background-color: gray;
+  color: white;
+}
+h1 {
+	border:2px solid white;
+    font-size: 30px;
+	padding: 5px;
+}
+ p {
+	font-size: 20px;
+	color: black;
+	border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #99CCFF;
+ }
+ .luokka {
+  width: 100px;
+  height: 100px;
+  border: 2px dotted
+ }
+ ol {
+	 list-style-type: lower-alpha;
+ }
+  ul {
+	 list-style-type: square;
+ }
+ 
+ a {
+	font-size: 40px;
+	float: right
+}
