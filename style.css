@@ -1,0 +1,141 @@
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("kuvat/cropped-hero-bg-2.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }
+
+  .hero-image2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("kuvat/cropped-hero-bg-3.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  } 
+
+.hero-image3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("kuvat/cropped-hero-bg-4.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }
+
+  .hero-image4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("kuvat/cropped-hero-bg-5.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  } 
+
+  .hero-image5 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("kuvat/cropped-hero-bg-6.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  } 
+
+  .hero-image6 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("kuvat/cropped-hero-bg-7.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }  
+
+  .hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+  }
+
+  div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+  }
+footer {
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-top: 1px;
+  }
+
+ .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+aside {
+	width: 15%;
+	height: 300px;
+  text-align: left;
+  float: left;
+   }
+
+aside ul {
+	list-style-type: none;
+    margin: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+	padding: 16px;
+}
+
+aside li {
+	padding: 16px;
+}
+
+section {
+	float: right;
+	width: 85%;
+	height: 300px;
+	text-align: center;
+}
+
+.table {
+	text-align: center;
+	table-layout:fixed;
+    width:100%;
+}
+
+@media screen and (max-width: 500px) {
+	.table {
+	  font-size: 7px;
+	}
+}
