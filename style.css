@@ -138,4 +138,8 @@ section {
 	.table {
 	  font-size: 7px;
 	}
+
+	.luuri {
+		width: 300px;
+	}
 }
